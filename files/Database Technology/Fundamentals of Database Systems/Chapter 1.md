@@ -37,3 +37,14 @@ A database has the following implicit properties:
 
 A **database management system (DBMS)** is used for **defining**, **constructing**, **manipulating**, and **sharing** databases
 
+- **Defining** = specifying data types, structures and constraints of the data
+	- The database definition or descriptive information is also stored by the DBMS and is called **meta-data**.
+
+- **Constructing** = storing the data on some storage medium that is controlled by the DBMS.
+
+- **Manipulating** = querying the database to retrieve and update data or generating reports from the data.
+
+- **Sharing** = allowing (multiple) users and programs to access the database.
+
+**Application programs** access the database by sending queries. A **transaction** may cause some data to be read and some data to be written
+
