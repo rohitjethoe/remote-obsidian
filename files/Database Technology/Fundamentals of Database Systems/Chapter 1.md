@@ -35,16 +35,84 @@ A database has the following implicit properties:
 	- A random assortment of data is NOT a database.
 3. **Specific purpose**: is **designed**, **built** and **populated** with data for **a specific purpose** 
 
-A **database management system (DBMS)** is used for **defining**, **constructing**, **manipulating**, and **sharing** databases
+A **database management system (DBMS)** is used for **defining**, **constructing**, **manipulating**, and **sharing**, **protecting** and **maintaining** databases
 
-- **Defining** = specifying data types, structures and constraints of the data
+1. **Defining** = specifying data types, structures and constraints of the data
 	- The database definition or descriptive information is also stored by the DBMS and is called **meta-data**.
-
-- **Constructing** = storing the data on some storage medium that is controlled by the DBMS.
-
-- **Manipulating** = querying the database to retrieve and update data or generating reports from the data.
-
-- **Sharing** = allowing (multiple) users and programs to access the database.
+2. **Constructing** = storing the data on some storage medium that is controlled by the DBMS.
+3. **Manipulating** = querying the database to retrieve and update data or generating reports from the data.
+4. **Sharing** = allowing (multiple) users and programs to access the database.
+5. **Protection**:
+	- **System protection** against hardware or software malfunction
+	- **Security protection** against unauthorized or malicious access
+6. **Maintaining** = allowing the system to evolve as requirements change over time
 
 **Application programs** access the database by sending queries. A **transaction** may cause some data to be read and some data to be written
 
+It is also possible to create a **special-purpose DBMS software**
+
+A **database system** = DBMS software and the database together.
+
+## 1.2: An Example
+---
+![[Screenshot 2025-11-12 at 14.11.22.png]]
+
+### **`UNIVERSITY` database**: 
+
+*Stores five **data records** of the same type.*
+- The **`STUDENT`** file stores data on each student
+- The **`COURSE`** file stores data on each course
+- The **`SECTION`** file stores data on each section of a course
+- The **`GRADE_REPORT`** file stores the grades that students receive in courses they have completed
+- The **`PREREQUISITE`** file stores the prerequisites of each course
+
+To **define** this database we specify the different types of **data elements** to be stored in each record
+
+We must also specify a **data type** for each **data element**
+- **`Student_Name`** is a string of alphabetic characters
+- **`Student_Number`** is an integer
+- **`Student_Class`** could use an encoding scheme e.g. '1' for 'freshman'
+
+To **construct** the database we store data to represent each `STUDENT`, `COURSE`, `SECTION`, `GRADE_REPORT` etc... 
+
+Database **manipulation** involves **querying** and **updating data.**
+- Queries are specified in the query language of the DBMS
+
+The database is part of a larger undertaking known as an **information system within an organization**.
+
+Designing new database applications or new databases is done in phases:
+1. **Requirements specification and analysis**: requirement documentation
+2. **Conceptual design**: 
+	- Represented and manipulated using computerized software
+	- Can be maintained, modified and transformed into a database implementation
+3. **Logical design**: expressed in a data model implemented in a commercial DBMS
+4. **Physical design**: actual implementation, populated with actual data and maintained to reflect the miniworld
+
+## 1.3 Characteristics of the Database Approach
+---
+Older approach before databases is **file processing**
+- **Grade report office:** keeps files on students and their grades
+- **Accounting office**: keeps files on students fees and their payments
+
+Downsides of file processing:
+- Redundant in defining and storing data 
+- Wastes storage space
+- Redundant in maintaining common up-to-date data
+
+In the **database approach** a single DB maintains data that is defined once and accessed by various users through **queries**, **transactions**, and **application programs**.
+
+Database approach vs file processing approach:
+- Self-describing nature of a database system
+- Insulation between programs and data, and data abstraction
+- Support of multiple views of the data
+- Sharing of data and multiuser transaction processing
+
+### 1.3.1: Self-Describing Nature of a Database System
+---
+A database system contains
+- A database itself
+- A complete definition of the database structure and constraints
+
+**Meta-data** = describes the structure of the primary database.
+
+NOSQL systems do not require meta-data. Rather the data is stored as **self-describing data**.

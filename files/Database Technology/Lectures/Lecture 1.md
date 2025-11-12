@@ -61,12 +61,19 @@ JSON is an example of the Document Model
 
 Schemas abstract the data to be stored about the real world.
 - **Conceptual Schema:** What entities & relationships?
-- **Logical Schema:** Transforms conceptual schema with respect to chosen Data Model
+- **Logical Schema:** Transforms conceptual schema with respect to chosen data model
+
+![[Screenshot 2025-11-11 at 16.24.14.png]]
 
 Informal summary:
 - **Database**: A collection of related data represented (using a data model and a defined data schema)
 - **Database Management System (DBMS**): A software system to manage and maintain databases
-- **Data Model**: A formal definition on how to represent data (in general) and the available data operations
-- **Data Schema**: A definition of the structure of a specific database
+- **Data Model**: Defines how to represent data (in general) and the available data operations (relational, key-value, document-centered model etc...)
+- **Data Schema**: Defines the structure of a specific database
 
+**ER Diagram** (Entity-Relationship) = Shows the entity (types) and their relationship (types).
 
+Chen-style ER diagrams use:
+- Circles for **attributes**
+- Boxes for **entities**
+- Diamonds for **relationships**
