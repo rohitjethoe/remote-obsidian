@@ -90,18 +90,18 @@ Designing new database applications or new databases is done in phases:
 
 ## 1.3 Characteristics of the Database Approach
 ---
-Older approach before databases is **file processing**
+Older approach before databases is **traditional file processing**
 - **Grade report office:** keeps files on students and their grades
 - **Accounting office**: keeps files on students fees and their payments
 
-Downsides of file processing:
+**Downsides** of traditional file processing:
 - Redundant in defining and storing data 
 - Wastes storage space
 - Redundant in maintaining common up-to-date data
 
 In the **database approach** a single DB maintains data that is defined once and accessed by various users through **queries**, **transactions**, and **application programs**.
 
-Database approach vs file processing approach:
+**Database approach vs traditional file processing:**
 - Self-describing nature of a database system
 - Insulation between programs and data, and data abstraction
 - Support of multiple views of the data
@@ -109,10 +109,33 @@ Database approach vs file processing approach:
 
 ### 1.3.1: Self-Describing Nature of a Database System
 ---
-A database system contains
-- A database itself
-- A complete definition of the database structure and constraints
+A database system contains **a complete definition of the database structure and constraints**.
 
 **Meta-data** = describes the structure of the primary database.
 
 NOSQL systems do not require meta-data. Rather the data is stored as **self-describing data**.
+
+Data definition in **traditional file processing** is usually part of the application programs themselves. This constrains the programs to work with only specific databases.
+
+DBMS software can access diverse databases by extracting the DB definitions from the catalog.
+
+### 1.3.2: Insulation between Programs and Data, and Data Abstraction
+---
+**Program-data independence** = access programs and the DBMS catalog are stored separately.
+
+X.................
+
+### 1.3.3: Support of Multiple Views of the Data
+---
+A database has many types of users where each may require a different **view** of the database.
+
+A **view** might be a subset of the DB or it may contain **virtual data** that is derived from the DB files but not explicitly stored.
+
+### 1.3.4: Sharing of Data and Multiuser Transaction Processing
+---
+**Concurrency control software** = updating the same data in a controlled manner so that the result is correct.
+
+**Online transaction processing (OLTP)** = application to ensure concurrent transactions operate correctly and efficiently
+
+**Transaction** = executing program or process that includes one or more database accesses.
+
