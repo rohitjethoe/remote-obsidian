@@ -71,19 +71,74 @@ Why databases and not just files?
 **CSE1500 Overview**
 <hr style="margin-top: 8px">
 
-- **Week 1**:
-	*Introduction to Database Systems*
-	*Introduction to Modelling*
+**Week 1**:
+ *(1) Introduction to Database Systems*
+ *(2) Introduction to Modelling*
 
-- **Week 2**:
-	*Jumpstart SQL Query Language*
-	*Introduction to Modelling (part 2)*
+-**Week 2**:
+ *(3) Jumpstart SQL Query Language*
+ *(4): Introduction to Modelling (part 2)*
 
-- **Week 3**:
-	*Intermediate SQL Query Language*
-	*Data Models & The Relational Model*
+**Week 3**:
+ *(5): Intermediate SQL Query Language*
+ *(6): Data Models & The Relational Model*
 
-- **Week 4**:
-	*The Relational Model, Functional Dependencies & Normalizations*
-	*Roundup Q&A*
+**Week 4**:
+ *(7): The Relational Model, Functional Dependencies & Normalizations*
+ *(8): Roundup Q&A*
+
+---
+**Towards Modelling**
+<hr style="margin-top: 8px">
+
+- **Data Model** = A general definition on how to represent data and the available data operations
+- **Data Schema** = A definition of the structure of a specific database
+
+**Conceptual Schema**: Describes all entity types & relationships
+- **Entity Type**: A type of thing existing in the real world
+- **Relationships**: Connections between entities
+
+**ER Diagram** = Visual representation of entities and their relationships
+
+A data models consist of 3 parts:
+1. **Structure**: Data Structures used to create and represent databases 
+2. **Integrity**: Rules expressing **constraints** on these data structures 
+3. **Manipulation**: Operations that can be applied to the data structures (query/update)
+
+---
+**Relational Data Model**
+<hr style="margin-top: 8px">
+
+**Relational Data Model** = uses multiple data tables that have relationships.
+- Every **entity type** & **relationship type** has it's own table
+
+**✅ Pro's of Relational DB's:**
+  Very expressive
+  Flexible & fast query language	
+
+**❌ Cons of Relational DB's:**
+  Requires DBMS to manage, maintain and update
+  Complex to use
+  Complex to design
+
+---
+**Single-Table Model**
+<hr style="margin-top: 8px">
+
+**Single-Table Model** = represents all data as a single table
+- Typically by representing as a `.csv` or Excel file
+
+**✅ Pro's of Single-Table DB's:**
+  Very simple
+  Can easily be converted to files
+  No DBMS necessary
+
+**❌ Cons of Single-Table DB's:**
+  Hard to perform queries
+  Schema is flattened (most conceptual schema information is lost)
+  A lot of data redundancy depending on flattening
+
+---
+**Document Model**
+<hr style="margin-top: 8px">
 
