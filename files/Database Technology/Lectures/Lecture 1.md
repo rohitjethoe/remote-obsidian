@@ -1,79 +1,89 @@
-*Introduction to Database Systems*
+## Grading
+---
+- **Database**: Midterm  $\Rightarrow$ 50%
+- **Web**: Endterm           $\Rightarrow$ 50%
+- **Resit**: either both or individually.
 
-~ **5 ECTS:** 140 hours of work to pass
-- 18 hours per week
+## Literature DB
+---
+**Fundamentals of Database System** Elmasri & Navathe, 7th edition.
 
-DIKW Pyramid (Data, Information, Knowledge, Wisdom)
+## Expectations
+---
+Web & Database Technology is a **5 ECTS** course
+- About **20 hours/week**.
 
-"Typically, **information** is defined in terms of **data**, **knowledge** in terms of **information**, and **wisdom** in terms of **knowledge**".
+## Information, Data and Knowledge?
+---
+**Information and Data Modelling**
+<hr style="margin-top: 8px">
 
-![[Screenshot 2025-11-11 at 13.37.32.png]]
+**DIKW Pyramid:**
+	**D**ata
+	**I**nformation: contextualizing data
+	**K**nowledge: give meaning to information
+	**W**isdom: gain insight from knowledge
 
-- **Data** = anything (raw facts, symbols, sensor data) without any context
-- **Information** = structured data with context
-
-**Information Theory:** Lower uncertainty of the state of the world (decrease of entropy)
-
-- **Knowledge** = understanding of information
-- **Wisdom** = using knowledge to make good decisions
-
-Initially TU Delft was a **Civil Engineering** school
-
-**Claim 1:** A deep learning system will be just as smart as the data it gets
-**Claim 2:** A deep learning system will be just as smart as the objective it optimizes
+**Information Theory:** 
+	Idea that information decreases entropy or the uncertainty on the state of the world.
 
 ---
-*Into Databases*
+**Deep Learning**
+<hr style="margin-top: 8px">
 
-Data Management is the oldest topic in Computer Science.
+**Deep Learning** systems will only be 
+	1. As smart as the **data it gets**.
+	2. As smart as the **objective it optimizes**.
 
-Oracle's definition of a database:
-- A database doesn't have to be in a computer system, it can be **offline**.
-- A database is usually controlled by a **database management system (DBMS).** 
-- A database (system) = the data, the DBMS and applications associated with them.
+Only a small fraction of real-world ML systems is ML algorithm development. A lot of effort (80%) lies into **data management**.
 
-Database Technology: focus on how to USE databases:
-- Week 1: **Database Modelling**
-- Week 2: **SQL**
-- Week 3: **Intermediate SQL**
-- Week 4: **Relational Model, Functional Dependencies & Normalizations**
+---
+**Into Databases**
+<hr style="margin-top: 8px">
 
-A **data model** (theory) = defines how I structure and interact with data.
+- **Database** = a collection of related data (represented using a data model and data schema)
+- **Database Management Systems (DBMS)** = a software managing and maintaining a database.
 
-"data model" is ambigious, besides theory there is also **instance** or **schema**.
+Why databases and not just files?
+1. Data Integrity & Consistency
+2. Concurrency Control
+3. Querying & Flexibility
+4. Scalability & Performance
+5. Security & Access Control
+6. Backup & Recovery
 
-There are several common data models
-- **Relational Model** (which we are using)
-- Key-value model
-- Document-centered model
-- Graph model
-- And more...
+- **Tier-1 Architecture:** Applications and Database on a single local machine.
+	✅ Simple Architecture
+	✅ Cheap
+	❌ Limited to Single User
+	❌ Bad Security
+	❌ No Centralized Control
 
-Relational Model: we store data in tables
-- Columns are **attributes**
-- Rows are **tuples**
-- **Primary Key:** is an attribute value that uniquely identifies each row
+- **Tier-2 Architecture:** Clients (Apps + Users) communicate over network with DB
+	✅ Easy Access and Deployments
+	✅ Scalable
+	✅ Low Cost
+	❌ Security Issues
+	❌ Difficult Maintenance
+	❌ Limited Scalability
 
-JSON is an example of the Document Model
-- Redundant information
-- Less flexible
-- Easy global distribution
+---
+**CSE1500 Overview**
+<hr style="margin-top: 8px">
 
-Schemas abstract the data to be stored about the real world.
-- **Conceptual Schema:** What entities & relationships?
-- **Logical Schema:** Transforms conceptual schema with respect to chosen data model
+- **Week 1**:
+	*Introduction to Database Systems*
+	*Introduction to Modelling*
 
-![[Screenshot 2025-11-11 at 16.24.14.png]]
+- **Week 2**:
+	*Jumpstart SQL Query Language*
+	*Introduction to Modelling (part 2)*
 
-Informal summary:
-- **Database**: A collection of related data represented (using a data model and a defined data schema)
-- **Database Management System (DBMS**): A software system to manage and maintain databases
-- **Data Model**: Defines how to represent data (in general) and the available data operations (relational, key-value, document-centered model etc...)
-- **Data Schema**: Defines the structure of a specific database
+- **Week 3**:
+	*Intermediate SQL Query Language*
+	*Data Models & The Relational Model*
 
-**ER Diagram** (Entity-Relationship) = Shows the entity (types) and their relationship (types).
+- **Week 4**:
+	*The Relational Model, Functional Dependencies & Normalizations*
+	*Roundup Q&A*
 
-Chen-style ER diagrams use:
-- Circles for **attributes**
-- Boxes for **entities**
-- Diamonds for **relationships**
