@@ -73,11 +73,14 @@ Find the inverse of a function by:
 $$
 arcsin(x) = y \Leftrightarrow sin(y) = x \text{ with } - \dfrac{\pi}{2} \leq y \leq \dfrac{\pi}{2}
 $$
-- Definition of $arccos$ and $cos$:
+- **Definition of $arccos$ and $cos$:**
 $$
 arccos(x) = y \Leftrightarrow cos(y) = x \text{ with } 0 \leq y \leq \pi
 $$
-
+- **Definition of $arctan$ and $tan$:**
+$$
+arctan(x) = y \Leftrightarrow tan(y) = x \text{ with } - \dfrac{\pi}{2} \leq y \leq \dfrac{\pi}{2}
+$$
 
 
 ## Questions
@@ -91,4 +94,17 @@ $$
 
 3) **Find the inverse**:
 ![[Screenshot 2025-11-16 at 21.29.49.png]]
+
+4) **Arcsin**
+![[Screenshot 2025-11-16 at 21.41.52.png]]
+
+5) **Arctan**
+![[Screenshot 2025-11-16 at 21.42.05.png]]
+
+6) **Simplifying expressions**
+![[Screenshot 2025-11-16 at 21.42.28.png]]
+
+7) **Practice**
+![[Screenshot 2025-11-16 at 21.42.49.png]]
+
 
