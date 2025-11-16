@@ -142,3 +142,14 @@ A data models consist of 3 parts:
 **Document Model**
 <hr style="margin-top: 8px">
 
+**Document Model** = uses a semi-structured text document tree (like `.json` or `.xml`)
+
+**✅ Pro's of Document DB's:**
+  Can be converted to files
+  No DBMS needed
+  Very scalable and distributable
+
+**❌ Cons of Document DB's:**
+  Less powerful queries
+  Some data redundancy
+
