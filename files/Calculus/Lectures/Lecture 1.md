@@ -19,6 +19,11 @@ with $m = \text{ 'midterm'}$ and $f = \text{'final exam'}$.
 
 **Stewart's Calculus:** Ch 1.5, Ch 2.2, Ch 2.5
 
+Practice the topics of this lecture to be able to:
+1. find the inverse of a one-to-one function
+2. simplify expressions involving trigonometric functions
+3. investigate whether a function is continuous at a point
+
 ---
 **Functions**
 <hr style="margin-top: 8px" />
@@ -81,6 +86,50 @@ $$
 $$
 arctan(x) = y \Leftrightarrow tan(y) = x \text{ with } - \dfrac{\pi}{2} \leq y \leq \dfrac{\pi}{2}
 $$
+---
+**Limit of a Function**
+<hr style="margin-top: 8px" />
+
+**$f(x)$ approaches $L$ as $x$ approaches $a$:
+$$\lim_{x \to a} f(x) = L$$
+
+$f(x)$ approaches $L$ as $x$ approaches $a$ **from the right**:
+$$
+\lim_{x \to a^+}
+$$
+
+$f(x)$ approaches $L$ as $x$ approaches $a$ **from the left**:
+$$
+\lim_{x \to a^-}
+$$
+
+**Theorem:**
+$$
+\lim_{x \to a}f(x) = L \Leftrightarrow \lim_{x \to a^+}f(x) = L = \lim_{x \to a^-}f(x)
+$$
+
+---
+**Continuity**
+<hr style="margin-top: 8px" />
+
+A function $f$ is <u>continuous</u> at $x = a$ if: $\lim_{x \to a} f(x) = f(a)$
+
+The following functions are continuous at their maximal domain:
+- $x^r$
+- $a^x$ and $f(x) = log_a(x)$ for $a > 0$ and $a \neq 1$
+- $sin(x), tan(x), cos(x), arcsin(x), arctan(x), arccos(x)$
+- $| x |$
+
+A function $f$ is <u>left continuous</u> at $x = a$ if: $\lim_{x \to a^-} f(x) = f(a)$
+
+A function $f$ is <u>right continuous</u> at $x = a$ if: $\lim_{x \to a^+} f(x) = f(a)$
+
+---
+**Intermediate values**
+<hr style="margin-top: 8px" />
+
+**Intermediate value theorem**:
+Suppose $f$ is continuous on $[a, b]$ and let $N$ be any number between $f(a)$ and $f(b)$, where $f(a) \neq f(b)$. Then there exists number $c$ in $(a, b)$ such that $f(c) = N$
 
 
 ## Questions
@@ -107,4 +156,9 @@ $$
 7) **Practice**
 ![[Screenshot 2025-11-16 at 21.42.49.png]]
 
+8) Continuity
+![[Screenshot 2025-11-18 at 15.32.50.png]]
+
+9) Continuity
+![[Screenshot 2025-11-18 at 15.33.13.png]]
 
