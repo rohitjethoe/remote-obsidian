@@ -1,5 +1,18 @@
-## Course Material
+## Syllabus
+---
+- Explain the elements of the Relational Model and contrast them with other Data Models
+    
+- Design Conceptual and Logical Database Schemas and justify design choices;
+    
+- Apply DB theory to improve Logical Schemas with focus on functional dependencies, keys, and database normalization, and justify design choices.
+    
+- Design and analyse SQL queries
+    
+- Prototype and deploy database applications using open-source database systems.
 
+
+## Course Material
+---
 *Lecture Slides*
 - [ ] **1.1:** Introduction to Database Systems
 - [ ] **1.2:** Introduction to Modelling
@@ -24,7 +37,7 @@
 - [ ] Week 1 Tutorial
 
 ## Assignments
-
+---
 *Lab Assignment*
 
 - [ ] **Modelling Assignment:** WDT 01 DB01
