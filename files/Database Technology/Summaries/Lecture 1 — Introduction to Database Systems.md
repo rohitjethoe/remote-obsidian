@@ -4,6 +4,10 @@ title: Introduction to Database Systems
 tags:
   - CSE1500
 ---
+**Table of Contents**:
+- [[#Lecture Slides]]
+- [[#Ch. 1 Introduction to Databases]]
+
 ## Lecture Slides
 ---
 **Information, Data and Knowledge**
@@ -63,4 +67,134 @@ tags:
 	- 4.1: The Relational Model, Functional Dependencies & Normalizations
 	- 4.2: Roundup & Q&A
 
+---
+**Towards Modelling**
+****
+- **Data Model** = a formal definition on how to represent data (in general) & the available data operations
+- **Data Schema** = a definition of the structure of a specific database
 
+**Conceptual Schema**: describes all entity types and relationship types
+- **Entity Type**: A type of thing existing in the real world
+- **Relationships**: Connections between entities
+
+**ER Diagram** = shows entity types and their relationship types
+
+**Logical Schema** = represents the conceptual schema in the chosen data model
+
+****
+**Relational Model** = Represents data tables which are linked (via ids and foreign keys)
+****
+- **Pros**:
+	- Expressive
+	- Flexible and fast (query language)
+- **Cons**:
+	- Requires a DBMS, schemas, constraints and queries
+	- Complex to use
+	- Complex to design
+
+****
+**Single-Table Model** = Represent all data as a single table
+****
+- Represented by a `.csv` or `.xlsx` file 
+- Mostly used for exchanging data
+
+- **Pros**:
+	- Simple
+	- Easily converted to files
+	- NO DBMS necessary
+- **Cons**:
+	- Inflexible query language
+	- Schema is flattened (conceptual schema information is lost)
+	- A lot of data redundancy depending on how the schema was flattened
+
+****
+**Document Model** = Represents as semi-structured text documents
+****
+- Represented by `.json` or `.xml` file
+- Typically: decide on a main entity type and embed all it's sub-entities in a substructure
+- Queries can filter the document
+- Often used in Web APIs and Web Systems
+
+- **Pros**:
+	- Simple
+	- Easily converted to files
+	- No DBMS necessary
+	- Very scalable and distributable
+- **Cons**:
+	- Somewhat inflexible query language
+	- Some data redundancy depending on the aggregation perspective
+
+****
+**Summary**
+****
+- **Databases** are collection of related data represented using a **data model** and structured using a **data schema**
+	- **Conceptual Schema**: describes entities types and their relationship types
+	- **Logical Schema**: represents conceptual schema in the chosen data model
+- **Data model** governs how data can be represented and manipulated
+	- **Relational Model**: uses tables with attributes, ids and links by foreign key constraints
+	- **Single-Table Model**: one table without constraints
+	- **Document Model**: uses semi-structured document tree (`.json`, `.xml`, MongoDB, etc.)
+
+
+## Ch. 1 Introduction to Databases
+****
+**Introduction**
+****
+A **database**: collection of related data
+- **Data**: known facts that can be recorded and have implicit meaning
+
+**Properties of a database**:
+1. Represents some aspect of the real world called the **miniworld** or **universe of discourse (UoD)**
+2. Database is a logically coherent collection of data with inherent meaning
+3. Database is designed, built and populated with data for a specific purpose
+
+A database can be either **manually** or it can be **computerized**
+
+A **database management system (DBMS)**: system that enables users to create and maintain a database
+- A **DBMS** is a general-purpose software system
+- A **DBMS** facilitates:
+	1. **Defining** data types, structures and constraints (rules stored as **meta-data**)
+	2. **Constructing** data to be stored on some storage medium controlled by the DBMS
+	3. **Manipulating**: querying data and updating to reflect changes in the miniworld
+	4. **Sharing**: allows multiple users and programs access simultaneously
+	5. **Protection**: 
+		- System protection: hardware or software crashes
+		- Security protection: unauthorized access
+	6. **Maintenance**: evoling the system as requirements change over time
+
+An **application program** accesses the DB by sending queries to the DBMS
+
+ A **query**: causes data to be retrieved
+ A **transaction**: causes data to be read and data to be written 
+
+**Database System**: the database and the DBMS software together.
+
+****
+**An Example**
+****
+
+****
+**Characteristics of the Database Approach**
+****
+**File Processing**: Each application keeps it's own files & programs 
+- Data is duplicated: wasted storage & extra work
+
+**Database Approach**: One central repository holds data, which can be accessed by multiple users and applications
+- Reduces redundancy and keeps data consistent
+
+**Main Characteristics of Databases**
+1. **Self-describing nature**:
+	- A (specific) database stores structure, types and rules (**metadata**) in a catalog.
+	- DBMS uses catalog to understand how to read/write data
+2. **Insulation between programs and data (data abstraction)**:
+	- Programs don't need to know the details of how data is stored
+3. **Support for multiple views**:
+	- Different users may need different **views** of the data
+4. **Sharing data and multiuser transaction**:
+	- Multiple users can safely access and update the DB at the same time
+	- DBMS uses **transactions** to ensure data stays correct when people are working on it simultaneously.
+
+---
+**Actors on the Scene**
+****
+**Database Administrators (DBA)**
