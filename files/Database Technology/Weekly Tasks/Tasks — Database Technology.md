@@ -1,3 +1,8 @@
+---
+tags:
+  - CSE1500
+title: Database Technology
+---
 ## Syllabus
 ---
 - Explain the elements of the Relational Model and contrast them with other Data Models
@@ -14,16 +19,23 @@
 ## Course Material
 ---
 *Lecture Slides*
-- [ ] **1.1:** Introduction to Database Systems
-- [ ] **1.2:** Introduction to Modelling
+- [x] **1.1:** Introduction to Database Systems
+- [x] **1.2:** Introduction to Modelling
+- [ ] **2.1:** SQL
+- [ ] **2.2:** Modelling (part 2)
 
 *Fundamentals of Database Systems*
 
-- [ ] **Ch. 1**: Database and Database Users
-- [ ] **Ch. 2:** Database System Concepts and Architecture
-- [ ] **Ch. 5:** The Relational Data Model and Database Constraints
-- [ ] **Ch. 3**: Data Modeling Using The Entity-Relationship (ER) Model
-- [ ] **Ch. 4:** The Enhanced Entity Relationship (EER) Model
+- [ ] **Ch. 1**: Database and Database Users (1.1)
+- [ ] **Ch. 2:** Database System Concepts and Architecture (1.1)
+- [ ] **Ch. 5:** The Relational Data Model and Database Constraints (1.1)
+- [ ] **Ch. 3**: Data Modeling Using The Entity-Relationship (ER) Model (1.2) 
+- [ ] **Ch. 4:** The Enhanced Entity Relationship (EER) Model (1.2)
+- [ ] **Ch. 6.3**: Basic Retrieval Queries in SQL (2.1)
+- [ ] **Ch. 7.1.1**: Comparison involving NULL and three-valued logic (2.1)
+- [ ] **Ch. 7.1.5**: Explicit Sets and Renaming of Attributes in SQL (2.1)
+- [ ] **Ch. 7.1.6**: Joined Tables in SQL and Outer Joins (2.1)
+- [ ] **Ch. 9**: Relational Database Design by ER and EER-to-Relational Mapping (2.2)
 
 *Web Resources*
 
@@ -35,6 +47,7 @@
 *Tutorials*
 
 - [ ] Week 1 Tutorial
+- [ ] Week 2 Tutorial
 
 ## Assignments
 ---
