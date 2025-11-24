@@ -197,4 +197,15 @@ An **application program** accesses the DB by sending queries to the DBMS
 ---
 **Actors on the Scene**
 ****
-**Database Administrators (DBA)**
+In any organization:
+- **Primary resource**: database itself
+- **Secondary resource**: DBMS and related software
+
+**Database Administrators (DBA)**: Administers database and is responsible for:
+- Authorizing access to the DB
+- Coordinating and monitoring DB usage
+- Acquiring software and hardware resources as needed
+
+**Database Designers**: Identifies data to be stored in the database & choosing appropriate representation & storage structures
+
+**End Users**: Databases primarily exist for their use (querying, updating and generating reports)
