@@ -1,9 +1,13 @@
+---
+tags:
+  - CSE1105
+title: Getting Started with the Template Project
+---
 ## Software Prerequisites
 ---
 - Git 2.51+
 - Maven 3.9+
 - Java 25
-
 
 ## Setup Open JFX
 ---
