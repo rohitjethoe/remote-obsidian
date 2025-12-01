@@ -20,6 +20,7 @@ title: Database Technology
 - [ ] **2.2:** Modelling (part 2)
 - [ ] **3.1:** SQL (part 2)
 - [ ] **3.2:** The Relational Model
+- [ ] **4.1:** Functional Dependencies & Normalization
 - [ ] **Extra:** JPA
 
 *Fundamentals of Database Systems*
@@ -51,6 +52,9 @@ title: Database Technology
 - [ ] **Ch. 7.1.7** Aggregate Functions in SQL
 - [ ] **Ch. 7.1.8** Grouping: The GROUP BY and HAVING clauses
 - [ ] **Ch. 7.4** Optional, not an exam topic in _CSE1500_: Schema Change Statements in SQL
+**4.1: Functional Dependencies & Normalization**
+- [ ] **Ch. 14** FP and Normalization
+	- Note that in exercises & in the exam, we only cover Normal forms 1-3 (no BCNF or 4th or higher form)
 
 *Web Resources*
 
@@ -69,7 +73,9 @@ title: Database Technology
 ---
 *Lab Assignment*
 
-- [ ] **Modelling Assignment:** WDT 01 DB01
+- [ ] **Modelling Assignment
+- [ ] **SQL Assignment**
+
 
 
 

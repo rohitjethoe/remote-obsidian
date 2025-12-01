@@ -47,6 +47,9 @@ date: 2025-11-24
 ****
 ### Week 2.3: Towards Database Midterm
 ****
+
+### Week 2.4: Towards Database Midterm
+****
 **`Monday`**
 
 **`Tuesday`**
@@ -87,24 +90,7 @@ date: 2025-11-24
 - [ ] **3.2:** The Relational Model
 - DBT: Check Brightspace for related chapters to 3.1 & 3.2 and add assignments for weekend to-do
 
-**`Sunday`**
-
-
-### Week 2.4: Towards Database Midterm
-****
-**`Monday`**
-
-**`Tuesday`**
-
-**`Wednesday`**
-
-**`Thursday`**
-
-**`Friday`**
-
-**`Saturday`**
-
-**`Sunday`**
+**`Sunday`**`
 
 ### Week 2.5: Towards Database Midterm
 ****

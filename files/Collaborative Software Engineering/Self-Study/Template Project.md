@@ -16,7 +16,7 @@ title: Getting Started with the Template Project
 	- Scene Builder >> Download
 2. Unzip the downloaded SDK `.zip` somewhere
 3. Add VM Arguments to your **Run Configs** for the Client
-	- `--module-path="/path/to/javafx-sdk/lib" --add-modules=javafx.controls,javafx.fxml,javafx.web`
+	- `--module-path="/Users/rohitjethoe/javafx-sdk-25.0.1/lib" --add-modules=javafx.controls,javafx.fxml,javafx.web`
 
 (The client project contains a README.md with the VM args)
 
