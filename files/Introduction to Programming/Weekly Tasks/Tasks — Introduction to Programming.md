@@ -3,7 +3,6 @@ tags:
   - CSE1100
 title: Introduction to Programming
 ---
-
 ## Syllabus
 ---
 - Primitive datatypes: value domains, operators, expression, declarations and assignments.
@@ -47,4 +46,3 @@ title: Introduction to Programming
 - [ ] **9.22:** Modern Java
 - [ ] **9.23:** Wrap up
 - [ ] **9.24:** Q&A
-

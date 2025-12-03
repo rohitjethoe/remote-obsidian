@@ -53,44 +53,45 @@ date: 2025-11-24
 **`Monday`**
 
 **`Tuesday`**
-<u>Database Technology (CSE1500)</u>
-- [ ] **Ch. 1**: Database and Database Users (1.1) 
-- [ ] **Ch. 2:** Database System Concepts and Architecture (1.1)
-- [ ] **Ch. 5:** The Relational Data Model and Database Constraints (1.1)
 
-- Some Logic
 
 **`Wednesday`**
-<u>Mentorate (CSE1000)</u>
-- [ ] **(CSE1000)**: Mentorate at **TU Delft**
-
-<u>Database Technology (CSE1500)</u>
-- [ ] **Ch. 3**: Data Modeling Using The Entity-Relationship (ER) Model (1.2) 
-- [ ] **Ch. 4:** The Enhanced Entity Relationship (EER) Model (1.2)
 
 **`Thursday`**
-<u>Database Technology (CSE1500)</u>
+*Database Technology*
 - [ ] **2.1:** SQL
-- [ ] **Ch. 6.3**: Basic Retrieval Queries in SQL (2.1)
-- [ ] **Ch. 7.1.1**: Comparison involving NULL and three-valued logic (2.1)
-- [ ] **Ch. 7.1.5**: Explicit Sets and Renaming of Attributes in SQL (2.1)
-- [ ] **Ch. 7.1.6**: Joined Tables in SQL and Outer Joins (2.1)
+- [ ] **3.1:** SQL (part 2)
+- [ ] **Ch. 6.3**: Basic Retrieval Queries in SQL 
+- [ ] **Ch. 7.1.1**: Comparison involving NULL and three-valued logic 
+- [ ] **Ch. 7.1.5**: Explicit Sets and Renaming of Attributes in SQL 
+- [ ] **Ch. 7.1.6**: Joined Tables in SQL and Outer Joins 
+- [ ] **Ch. 6.1:** SQL Data Definition and Data Types
+- [ ] **Ch. 6.2:** Specifying Constraints in SQL
+- [ ] **Ch. 6.3.4:** Tables as Sets in SQL
 
 **`Friday`**
-<u>Collaborative Software Engineering (CSE1105)</u>
-- [ ] **(CSE1105)**: CSE Project at **TU Delft**
-
-<u>Database Technology (CSE1500)</u>
+*Database Technology*
 - [ ] **2.2:** Modelling (part 2)
-- [ ] **Ch. 9**: Relational Database Design by ER and EER-to-Relational Mapping (2.2)
+- [ ] **Ch. 3**: Data Modeling Using The Entity-Relationship (ER) Model (1.2) 
+- [ ] **Ch. 4:** The Enhanced Entity Relationship (EER) Model (1.2)
+- [ ] **Ch. 9**: Relational Database Design by ER and EER-to-Relational Mapping 
 
 **`Saturday`**
-<u>Database Technology (CSE1500)</u>
-- [ ] **3.1:** SQL (part 2)
 - [ ] **3.2:** The Relational Model
-- DBT: Check Brightspace for related chapters to 3.1 & 3.2 and add assignments for weekend to-do
+- [ ] **Ch. 7.1.2:** Optional, not an exam topic in _CSE1500_: Nested Queries, Tuples, and Set/Multiset Comparisons
+- [ ] **Ch. 7.1.3:** Optional, not an exam topic in _CSE1500_: Correlated Nested Queries
+- [ ] **Ch. 7.1.4:** Optional, not an exam topic in _CSE1500_: The EXISTS and UNIQUE Functions in SQL
+- [ ] **Ch. 7.1.5:** Explicit Sets and Renaming in SQL
+- [ ] **Ch. 7.1.7:** Aggregate Functions in SQL
+- [ ] **Ch. 7.1.8:** Grouping: The GROUP BY and HAVING clauses
+- [ ] **Ch. 7.4:** Optional, not an exam topic in _CSE1500_: Schema Change Statements in SQL
 
 **`Sunday`**`
+- [ ] **4.1:** Functional Dependencies & Normalization
+- [ ] **Ch. 14** FP & Normalization (only 1NF, 2NF, 3NF)
+- [ ] Week 1 Tutorial
+- [ ] Week 2 Tutorial
+- [ ] Week 3 Tutorial
 
 ### Week 2.5: Towards Database Midterm
 ****
