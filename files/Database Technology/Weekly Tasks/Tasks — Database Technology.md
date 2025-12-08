@@ -75,7 +75,3 @@ title: Database Technology
 
 - [ ] **Modelling Assignment
 - [ ] **SQL Assignment**
-
-
-
-

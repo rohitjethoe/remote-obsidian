@@ -4,6 +4,7 @@ title: SQL
 tags:
   - CSE1500
 ---
+![[WDT03_SQL.pdf]]
 ## Lecture Slides
 ****
 **Requirements of a DB Language**

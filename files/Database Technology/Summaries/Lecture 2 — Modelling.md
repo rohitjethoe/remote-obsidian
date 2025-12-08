@@ -4,6 +4,7 @@ title: Modelling
 tags:
   - CSE1500
 ---
+![[WDT02_Engineering and DB_Modelling.pdf]]
 ## Lecture Slides
 ****
 **Lecture Goals**

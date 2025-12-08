@@ -8,6 +8,7 @@ tags:
 - [[#Lecture Slides]]
 - [[#Ch. 1 Introduction to Databases]]
 
+![[WDT01_Introduction.pdf]]
 ## Lecture Slides
 ---
 **Information, Data and Knowledge**
