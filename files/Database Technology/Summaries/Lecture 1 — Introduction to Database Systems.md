@@ -8,7 +8,7 @@ tags:
 - [[#Lecture Slides]]
 - [[#Ch. 1 Introduction to Databases]]
 
-![[WDT01_Introduction.pdf]]
+![[../Lecture Slides/WDT01_Introduction.pdf]]
 ## Lecture Slides
 ---
 **Information, Data and Knowledge**
@@ -83,8 +83,10 @@ tags:
 **Logical Schema** = represents the conceptual schema in the chosen data model
 
 ****
-**Relational Model** = Represents data tables which are linked (via ids and foreign keys)
+**Relational Model**
 ****
+Represents data tables which are linked (via ids and foreign keys)
+
 - **Pros**:
 	- Expressive
 	- Flexible and fast (query language)
@@ -94,8 +96,9 @@ tags:
 	- Complex to design
 
 ****
-**Single-Table Model** = Represent all data as a single table
+**Single-Table Model** 
 ****
+Represent all data as a single table
 - Represented by a `.csv` or `.xlsx` file 
 - Mostly used for exchanging data
 
@@ -109,8 +112,9 @@ tags:
 	- A lot of data redundancy depending on how the schema was flattened
 
 ****
-**Document Model** = Represents as semi-structured text documents
+**Document Model** 
 ****
+Represents as semi-structured text documents
 - Represented by `.json` or `.xml` file
 - Typically: decide on a main entity type and embed all it's sub-entities in a substructure
 - Queries can filter the document

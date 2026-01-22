@@ -8,3 +8,5 @@ tags:
 
 ## Lecture Slides
 ---
+
+$$p \rightarrow q$$

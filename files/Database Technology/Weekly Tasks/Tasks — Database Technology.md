@@ -14,8 +14,8 @@ title: Database Technology
 ## Course Material
 ---
 *Lecture Slides*
-- [x] **1.1:** Introduction to Database Systems
-- [x] **1.2:** Introduction to Modelling
+- [ ] **1.1:** Introduction to Database Systems
+- [ ] **1.2:** Introduction to Modelling
 - [ ] **2.1:** SQL
 - [ ] **2.2:** Modelling (part 2)
 - [ ] **3.1:** SQL (part 2)
