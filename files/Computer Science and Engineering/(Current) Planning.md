@@ -60,18 +60,18 @@ De BSA-commissie van jouw faculteit vergadert in ieder geval tweemaal per colleg
 ---
 *Calculus (5 EC)*
 
-| Lecture | Summarized               | Exercises (Book)         | Exercises (Grasple)      | Exam                     |
-| ------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
-| 1.1     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 1.2     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 1.3     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 2.1     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 2.2     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 2.3     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 3.1     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 3.2     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 3.3     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 4.1     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 4.2     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 4.3     | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |
-| 5       | N/A                      | N/A                      | N/A                      | <input type="checkbox"/> |
+| Lecture | Summarized (Lecture Slides)      | Summarized (Book)        | Exercises (Book)         | Exercises (Grasple)      | Exam                     | Time Spent |
+| ------- | -------------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ---------- |
+| 1.1     | <input type="checkbox" checked/> | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      | 21m        |
+| 1.2     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 1.3     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 2.1     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 2.2     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 2.3     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 3.1     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 3.2     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 3.3     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 4.1     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 4.2     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 4.3     | <input type="checkbox"/>         | <input type="checkbox"/> | <input type="checkbox"/> | <input type="checkbox"/> | N/A                      |            |
+| 5       | N/A                              | N/A                      | N/A                      | N/A                      | <input type="checkbox"/> |            |
