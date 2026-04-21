@@ -37,7 +37,7 @@ The operators $\land, \lor$ and $\neg$ are referred to as **conjunction**, **dis
 > Brightspace: *Read section 2.1.4*
 > **Samenvatting digitaal & schriftelijk gemaakt in 10 minuten**
 
-### 2.1.4: Logical Equivalence
+### Ch. 2.1.4: Logical Equivalence
 ---
 To verify two compound propositions are equal:
 - Consider all possible combinations of values of propositional variables
@@ -49,4 +49,61 @@ A **situation** = any possible combination of values of the propositional variab
 - In general, if there are $n$ variables, then there are $2^n$ situations
 
 **Logically equivalent** = when two compound propositions always compute the same value
+
+> Brightspace: *Read sections 2.1.5 to 2.1.7* 
+> 12:50-13:26
+
+### Ch. 2.1.5: More logical operators
+---
+Other logical operators besides $\land, \lor$ and $\neg$ are: 
+- **Conditional operator**: "$\rightarrow$"
+- **Biconditional operator**: "$\leftrightarrow$"
+- **Exclusive OR operator**: "$\oplus$"
+
+**Definition 2.2:** For any propositions $p$ and $q$, we define the propositions $p \rightarrow q$, $p \leftrightarrow q$ and $p \oplus q$ according to the truth table:
+
+| $p$ | $q$ | $p \rightarrow q$ | $p \leftrightarrow q$ | $p \oplus q$ |
+| --- | --- | ----------------- | --------------------- | ------------ |
+| 0   | 0   | 1                 | 1                     | 0            |
+| 0   | 1   | 1                 | 0                     | 1            |
+| 1   | 0   | 0                 | 0                     | 1            |
+| 1   | 1   | 1                 | 1                     | 0            |
+
+When these operators are used in absence of parentheses, we use the following precedence rules:
+1. $\neg$
+2. $\land$
+3. $\lor$, $\oplus$
+4. $\rightarrow$
+5. $\leftrightarrow$
+
+### Ch. 2.1.6: Implications in English
+---
+The proposition $p \rightarrow q$ is called an **implication** or **conditional**:
+- Usually read as '$p$ implies $q$'
+- $p$ is called the **hypothesis** or **antecedent**
+- $q$ is called the **conclusions** or **consequent**
+
+If the implication $p \rightarrow q$ holds:
+- $p$ is **sufficient** for $q$
+	- If $p$ is true, then $q$ is also automatically true
+- $q$ is **necessary** for $p$
+	- Without $q$ being true, $p$ can never be true
+- In English, $p \rightarrow q$ is often expressed as 'if $p$ then $q$'
+
+### Ch. 2.1.7: More forms of implication
+---
+$\neg q \rightarrow \neg p$ is called the **contrapositive** of $p \rightarrow q$
+- Translates to: "If $q$ is not true, then $p$ is also not true".
+- An implication and it's contrapositive are logically equivalent
+	- The implication is reversed and both parts are made negative
+	- It's meaning still remains the same!
+
+$q \rightarrow p$ is called the **converse** of $p \rightarrow q$
+- "If $p$ then $q$" is not logically equivalent to "If $q$ then $p$"
+- If you mean that they are both true, you'd say:
+	- "If $p$ then $q$, and conversely" or $(p \rightarrow q) \land (q \rightarrow p)$
+- An implication and it's converse are not equivalent
+
+$\neg p \rightarrow \neg q$ is called the **inverse** of $p \rightarrow q$
+- An implication and it's inverse are also not logically equivalent
 
