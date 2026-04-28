@@ -51,7 +51,7 @@ A **situation** = any possible combination of values of the propositional variab
 **Logically equivalent** = when two compound propositions always compute the same value
 
 > Brightspace: *Read sections 2.1.5 to 2.1.7* 
-> 12:50-13:26
+> **Samenvatting digitaal & schriftelijk gemaakt in 61 minuten**
 
 ### Ch. 2.1.5: More logical operators
 ---
@@ -88,7 +88,8 @@ If the implication $p \rightarrow q$ holds:
 	- If $p$ is true, then $q$ is also automatically true
 - $q$ is **necessary** for $p$
 	- Without $q$ being true, $p$ can never be true
-- In English, $p \rightarrow q$ is often expressed as 'if $p$ then $q$'
+
+In English, $p \rightarrow q$ is often expressed as 'if $p$ then $q$'
 
 ### Ch. 2.1.7: More forms of implication
 ---
@@ -107,3 +108,15 @@ $q \rightarrow p$ is called the **converse** of $p \rightarrow q$
 $\neg p \rightarrow \neg q$ is called the **inverse** of $p \rightarrow q$
 - An implication and it's inverse are also not logically equivalent
 
+> Brightspace: *Read sections 2.2 until 2.2.1* 
+
+## Ch. 2.2: Boolean Algebra
+---
+**Learning objectives from studiegids.tudelft.nl:**
+3. Describe the notion of logical validity.
+
+### Ch. 2.2.1: Basics of Boolean Algebra
+---
+
+## HC 1: Propositional Calculus
+---
