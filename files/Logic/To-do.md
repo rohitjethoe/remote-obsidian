@@ -7,4 +7,5 @@ title: Reasoning and Logic
 - [ ] Verified Video: Creating Truth Tables
 - [ ] Do exercises 5 until 8 from section 2.1
 - [ ] Exercises 1 through 8 of section 2.2
+- [ ] Do exercises 1-4 from section 2.5
 

@@ -117,6 +117,106 @@ $\neg p \rightarrow \neg q$ is called the **inverse** of $p \rightarrow q$
 
 ### Ch. 2.2.1: Basics of Boolean Algebra
 ---
+Boolean algebra deals with manipulating propositions.
+- **George Boole** invented algebra of logic in 1854
+
+Instead of numerical values, we only have two logical values: true and false. Written as $\mathbb{T}$ and $\mathbb{F}$ or 1 and 0
+- Similar role as constant numbers, such as 1 and $\pi$ 
+
+Boolean algebra uses logical equivalence ($\equiv$) i.o. the equals sign (=)
+- Equals sign in ordinary algebra has different roles
+- $\equiv$ is used for identities 
+- $\leftrightarrow$ is used in equations that may or may not be true
+
+| Laws of Boolean Algebra |                                                                                                                     |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Double Negation         | $\neg (\neg p) \equiv p$                                                                                            |
+| Excluded middle         | $p \lor \neg p \equiv \mathbb{T}$                                                                                   |
+| Contradiction           | $p \land \neg p \equiv \mathbb{T}$                                                                                  |
+| Identity laws           | $\mathbb{T} \land p \equiv p$<br>$\mathbb{F} \lor p \equiv p$                                                       |
+| Idempotent laws         | $p \land p \equiv p$<br>$p \lor p \equiv p$                                                                         |
+| Commutative laws        | $p \land q \equiv q \land p$<br>$p \lor q \equiv q \lor p$                                                          |
+| Associative laws        | $(p \land q) \land r \equiv p \land (q \land r)$<br>$(p \lor q) \lor r \equiv p \lor (q \lor r)$                    |
+| Distributive laws       | $p \land (q \lor r) \equiv (p \land q) \lor (p \land r)$<br>$p \lor (q \land r) \equiv (p \lor q) \land (p \lor r)$ |
+| DeMorgan's laws         | $\neg (p \land q) \equiv (\neg p) \lor (\neg q)$<br>$\neg (p \lor q) \equiv (\neg p) \land (\neg q)$                |
+**Duality** = given any tautology that uses only $\land, \lor$ and $\neg$, another tautology can be obtained from it by interchanging $\land$ with $\lor$ and $\mathbb{T}$ with $\mathbb{F}$
+
+### Ch. 2.2.2: Substitution Laws
+---
+Propositional variables in the *'Laws of Boolean Algebra'* can stand for any (compound) propositions
+
+$$
+\neg (\neg p) \equiv p, \text{ therefore, } \neg(\neg(p \land q)) \equiv p \land q \text{ is also true.}
+$$
+
+Because any given proposition, $Q$, has a particular truth value, either $\mathbb{T}$ or $\mathbb{F}$.
+
+**Theorem 2.1:** (First Substitution Law)
+- Suppose that $Q$ is any proposition and $p$ is a propositional variable
+- Consider any tautology.
+- If $(Q)$ is substituted in all places where $p$ in the tautology, then the result is also a tautology
+
+The Second Substitution Law states that you can substitute an expression for a logically equivalent expression, wherever it occurs.
+
+**Theorem 2.2:** (Second Substitution Law)
+- Suppose that $P$ and $Q$ are any propositions such that $P \equiv Q$
+- Suppose that $R$ is any compound proposition in which $(P)$ occurs as a sub-proposition
+- Let $R'$ be the proposition that is obtained by substituting $(Q)$ for that occurence of $(P)$ in $R$. Then $R \equiv R'$
+
+The theorem does not require $(Q)$ to be substituted for every occurence of $(P)$ in $R$. You are free to substitute for just one or two occurences of $(P)$
 
 ## HC 1: Propositional Calculus
+---
+### George Boole
+---
+- First outlined in 1847
+- Now forms the basis of most electro-mechanical processes
+
+### FF
+---
+**“NOT (coffee or tea)”** is the same as: 
+- (b) **“NOT coffee AND NOT tea”**.
+
+If I am correct in saying **“To pass the course R&L, it is necessary that you pass the exam.”**
+What cannot happen?
+- (c) You do not pass the exam, and you pass R&L
+
+If $p$ is true, which of the following is not necessarily true?
+- (c) $p \rightarrow q$ 
+
+Which of the following is **true** if we know that it is true that; If there are puzzles, Stefan is happy
+- (c) If there are no puzzles, Stefan is not happy. This is the contrapositive of the original statement which is logically equivalent.
+
+### Equivalent Statements
+---
+How can we know whether two statements ϕ and ψ are the same?
+$$
+p \equiv q \text{ or }(p \leftrightarrow q) \text{ when } p \rightarrow q \land q \rightarrow p
+$$
+How do we show this in general?
+1. Prove $\phi \rightarrow \psi$ and $\psi \rightarrow \phi$ 
+2. Show that $\phi$ and $\psi$ have the same truth tables
+3. Reduce $\phi$ and $\psi$ to a normal form and show that their normal forms are equivalent
+
+### Logical Connectives
+---
+How many binary connectives $p \star q$ are there?
+
+| $p$ | $q$ | $\star$ |
+| --- | --- | ------- |
+| 0   | 0   | 0/1     |
+| 0   | 1   | 0/1     |
+| 1   | 0   | 0/1     |
+| 1   | 1   | 0/1     |
+4 rows with 2 choices per row: $2^4 = 16$
+
+> Brightspace: *Read sections 2.5.1 and 2.5.2*
+
+## 2.5:
+---
+
+### 2.5.1:
+---
+
+### 2.5.2:
 ---
