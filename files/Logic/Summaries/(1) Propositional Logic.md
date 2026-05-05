@@ -165,6 +165,8 @@ The Second Substitution Law states that you can substitute an expression for a l
 
 The theorem does not require $(Q)$ to be substituted for every occurence of $(P)$ in $R$. You are free to substitute for just one or two occurences of $(P)$
 
+> Hoorcollege
+
 ## HC 1: Propositional Calculus
 ---
 ### George Boole
@@ -208,15 +210,94 @@ How many binary connectives $p \star q$ are there?
 | 0   | 1   | 0/1     |
 | 1   | 0   | 0/1     |
 | 1   | 1   | 0/1     |
+
 4 rows with 2 choices per row: $2^4 = 16$
 
 > Brightspace: *Read sections 2.5.1 and 2.5.2*
 
-## 2.5:
+## 2.5: Deduction
+---
+Logic can be applied to draw conclusions from a set of **premises**
+
+**A premise** = a proposition that is known to be true or has been accepted to be true for the sake of argument.
+
+**An argument** = a claim that a certain conclusion follows from a given set of premises
+$$
+\begin{array}{ll} & \text{If today is Tuesday, then this is Belgium} \newline & \text{Today is Tuesday} \newline \hline \therefore & \text{This is Belgium} \end{array}
+$$
+The symbol $\therefore$ is read as 'therefore'
+
+### 2.5.1: Arguments
+---
+The above argument has the form:
+$$
+\begin{array}{ll} & p \rightarrow q \newline & p \newline \hline \therefore & q \end{array}
+$$
+For any propositions $p$ and $q$, if $p \rightarrow q$ is true, then $q$ must also be true (see truth table):
+
+| $p$ | $q$ | $p \rightarrow q$ |
+| --- | --- | ----------------- |
+| 0   | 0   | 1                 |
+| 0   | 1   | 1                 |
+| 1   | 0   | 0                 |
+| 1   | 1   | 1                 |
+If you believe $p \rightarrow q$ and $p$ you have no logical choice but to believe $q$. This applies no matter what $p$ and $q$ represent.
+
+We can't say for sure that the conclusion is true. If the premises are true, then the conclusion must be true.
+
+This can be rephrased by saying that $((p \rightarrow q) \land p) \rightarrow q$ is a tautology.
+
+For any compound propositions $P$ and $Q$, saying "$P \rightarrow Q$ is a tautology" is the same as saying that "in all cases where $P$ is true, $Q$ is also true."
+
+$P \Rightarrow Q$ stands for $P \rightarrow Q$ is a tautology.
+
+**Definition 2.10**:
+- Let $P$ and $Q$ be any formulas 
+- The notation $P \Rightarrow Q$ is used to mean that $P \rightarrow Q$ is a tautology.
+- That is, in all cases $P$ is true, $Q$ is also true. We then say $Q$ can be **logically deduced** from $P$ or that $P$ **logically implies** $Q$
+
+**A valid argument** = an argument in which the conclusion follows logically from the premises
+
+$((p \rightarrow q) \land p) \rightarrow q$ is valid since it is a tautology.
+
+**Modus ponens**
+$$
+\begin{array}{ll} & p \rightarrow q \newline & p \newline \hline \therefore & q \end{array}
+$$
+
+**Modus tollens**
+$$
+\begin{array}{ll} & p \rightarrow q \newline & \neg q \newline \hline \therefore & \neg p \end{array}
+$$
+
+**Law of Syllogism**
+$$
+\begin{array}{ll} & p \rightarrow q \newline & q \rightarrow r \newline \hline \therefore & p \rightarrow r \end{array}
+$$
+
+If the conclusion is false, then at least one of the premises is false.
+
+$$
+\begin{array}{ll} & p \lor q \newline & \neg p \newline \hline \therefore & q \end{array}
+$$
+
+$$
+\begin{array}{ll} & p \newline & q \newline \hline \therefore & p \land q \end{array}
+$$
+
+$$
+\begin{array}{ll} & p \land q \newline \hline \therefore & p \end{array}
+$$
+
+$$
+\begin{array}{ll}& p \newline \hline \therefore & p \lor q \end{array}
+$$
+
+### 2.5.2: Valid Arguments and Proofs
 ---
 
-### 2.5.1:
----
 
-### 2.5.2:
----
+$$
+\begin{array}{ll}& (p \land r) \rightarrow s \newline & q \rightarrow p \newline & t \rightarrow r \newline & q \newline & t \newline \hline \therefore & s \end{array}
+$$
+

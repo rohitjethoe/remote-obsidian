@@ -12,7 +12,6 @@ Let $p$ and $q$ be propositions. Then $p \lor q$, $p \land q$ and $\neg p$ are p
 ---
 For any propositions $p$ and $q$, we define the propositions $p \rightarrow q$, $p \leftrightarrow q$ and $p \oplus q$ according to the truth table:
 
-
 #### Theorem 2.1: First Substitution Law
 ---
 - Suppose that $Q$ is any proposition and $p$ is a propositional variable
