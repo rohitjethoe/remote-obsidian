@@ -17,3 +17,15 @@ For any propositions $p$ and $q$, we define the propositions $p \rightarrow q$, 
 - Suppose that $Q$ is any proposition and $p$ is a propositional variable
 - Consider any tautology.
 - If $Q$ is substituted in all places where $p$ in the tautology, then the result is also a tautology
+
+#### Definition 2.10
+---
+- Let $P$ and $Q$ be any formulas 
+- The notation $P \Rightarrow Q$ is used to mean that $P \rightarrow Q$ is a tautology.
+- That is, in all cases where $P$ is true, $Q$ is also true. We then say $Q$ can be **logically deduced** from $P$ or that $P$ **logically implies** $Q$
+
+#### Definition 2.11:
+---
+A **formal proof** = shows that an argument is valid and consists of a sequence of propositions, s.t.
+-  The last proposition in the sequence is **the conclusion of the argument**
+- And every proposition in the sequence is either **a premise** or **follows by logical deductions from preceding propositions**

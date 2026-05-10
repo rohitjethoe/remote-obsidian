@@ -7,6 +7,7 @@ title: Reasoning and Logic
 **Videos**
 - [ ] Verified Video: Creating Truth Tables
 - [ ] Verified Video: [Testing validity of arguments](https://youtu.be/dAucq3d0cfg?si=TiL5beNetSrgZxRP)
+- [ ] Book Video: [Truth Tables for validity of arguments](https://www.youtube.com/watch?v=lSZS3qbA88o&feature=youtu.be)
 
 **Exercises**
 - [ ] Do exercises 1, 3 and 4 of section 2.1.
