@@ -4,6 +4,9 @@ title: Reasoning and Logic
 *To-do list (e.g. skipped exercises or readings)*:
 
 <small><strong>(1.1) Propositional Logic</strong></small>
+**Readings**
+- [ ] 2.2.4 More rules of Boolean algebra
+
 **Videos**
 - [ ] Verified Video: Creating Truth Tables
 - [ ] Verified Video: [Testing validity of arguments](https://youtu.be/dAucq3d0cfg?si=TiL5beNetSrgZxRP)
@@ -14,4 +17,12 @@ title: Reasoning and Logic
 - [ ] Do exercises 5 until 8 from section 2.1
 - [ ] Exercises 1 through 8 of section 2.2
 - [ ] Do exercises 1-4 from section 2.5
+- [ ] Do exercises 9-12 of section 2.2
 
+<small><strong>(1.2) Propositional Logic</strong></small>
+**Readings**
+- [ ] 2.3.4 Disjunctive Normal Form 
+	- Read up extra on simplifying propositions and Karnaugh-map
+
+**Exercises**
+- [ ] **Q:** Rewrite this formula to DNF: $\neg ((p \land q) \rightarrow \neg(r \rightarrow q))$
