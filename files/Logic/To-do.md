@@ -26,3 +26,15 @@ title: Reasoning and Logic
 
 **Exercises**
 - [ ] **Q:** Rewrite this formula to DNF: $\neg ((p \land q) \rightarrow \neg(r \rightarrow q))$
+- [ ] 9 and 10 of section 2.1
+- [ ] **Tantalizing TA-Check 1**
+
+**Videos**
+- [ ] Verified Video: [Functional Completeness in Propositional Logic](https://youtu.be/pQJBqbBPRkg?si=qmvwqRnkeqwFd6dV)
+- [ ] Verified Video: [EE: Solving Crimes](https://youtu.be/yiNL8lJaKMo?si=gNpMWcflZSUugIea)
+- [ ] Verified Video: [EE: Equivalence of Propositions](https://youtu.be/jSxPNEPaXC4?si=24Ik0Ctpgg9GKWnk)
+- [ ] Verified Video: [EE: Deriving information from equivalence](https://youtu.be/TMaB_tmeLZE?si=v-1kO2F0xzHWjM0B)
+- [ ] Verified Video: [EE: Redundancy in arguments](https://youtu.be/s77wEjGHLWI?si=LtYxQYGfN4UbrTwM)
+- [ ] Extravagant Extra: [Can you solve "Einstein's Riddle"?](https://youtu.be/1rDVz_Fb6HQ?si=tAJJBFTcRZX_3knc)
+- [ ] Extravagant Extra: [Can you solve this logic puzzle?](https://youtu.be/98TQv5IAtY8?si=N8SHuzrMyMDW8GEs)
+
